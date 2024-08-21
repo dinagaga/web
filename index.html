@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blockjoy Team</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 5;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.team-member {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+  position: relative; 
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #555;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-member:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.897);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1 class="title">A Team of Web3 Experts</h1>
+  <p class="description">Blockjoy started as a project to manage staking with friends and family.</p>
+  <p style="text-align: justify;">We built advanced tooling to optimize validator management for teams of two. 
+    But, due to the sheer difficulty of installing and running nodes, our little Vodi company grew crazy fast.
+     We quickly realized that Vlad's can't work for a network because it centralizes control.
+      We turned our platform into a SaaS tool so that anyone could launch and run their own node with full control over where and on what infrastructure it runs. 
+    Now, network operators can run their own nodes. Blockjoy just takes the headaches away.</p>
+
+
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\mark.jpg" alt="Mark">
+      <h3>Mark</h3>
+      <p>Founder & CEO</p>
+      <div class="overlay">
+        <p>More about Mark</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\leevan.jpg" alt="Leevan">
+      <h3>Leevan</h3>
+      <p>Founder & CTO</p>
+      <div class="overlay">
+        <p>More about Leevan</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\karl.jpg" alt="Karl">
+      <h3>Karl</h3>
+      <p>Chief of Staff</p>
+      <div class="overlay">
+        <p>More about Karl</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\joseph.jpg" alt="Joseph">
+      <h3>Joseph</h3>
+      <p>Blockchain Reliability Engineer</p>
+      <div class="overlay">
+        <p>More about Joseph</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\john.jpg" alt="John">
+      <h3>John</h3>
+      <p>Backend Engineer</p>
+      <div class="overlay">
+        <p>More about John</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\bruh.jpg" alt="Bruh">
+      <h3>Bruh</h3>
+      <p>Systems Engineer</p>
+      <div class="overlay">
+        <p>More about Bruh</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\mark2.jpg" alt="Anthony">
+      <h3>Anthony</h3>
+      <p>Frontend Engineer</p>
+      <div class="overlay">
+        <p>More about Anthony</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="c:\Users\Guia E\Downloads\carl.jpg" alt="Carl">
+      <h3>Carl</h3>
+      <p>Site Reliability Engineer</p>
+      <div class="overlay">
+        <p>More about Carl</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
